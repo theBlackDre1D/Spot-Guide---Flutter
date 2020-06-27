@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    initApp();
+    getLocationPermissions();
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  Future<void> initApp() async {
+  Future<void> getLocationPermissions() async {
     await LocationPermissions().requestPermissions();
   }
 }

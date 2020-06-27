@@ -26,6 +26,8 @@ dependencies:
   fancy_bottom_navigation: ^0.3.2
   location_permissions: ^3.0.0
   location: ^3.0.0
+  solid_bottom_sheet: ^0.1.9
+  flutter_sliding_up_panel: ^1.1.0+1
 
   flutter:
     sdk: flutter
